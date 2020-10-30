@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar ul li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar ul li a:hover {
+  background-color: #111;
+}
+.navbar ul li {
+  display: inline;
+  font-size: 45px;
+}
+
+#Ec {
+  text-align: center;
+  font-size: 100px;
+  font-family: "Dancing Script", cursive;
+}
+
+.image h1 {
+  margin-left: 30%;
+  font-size: 100px;
+  left: 100px;
+  color: black;
+}
+.image p {
+  top: 30px;
+  font-size: 40px;
+  width: 60%;
+  margin-top: 98px;
+  margin-left: 43px;
+  color: black;
+  border: 1px solid #eee;
+  box-shadow: 0 5px 7px #ccc;
+  padding: 16px;
+  text-align: center;
+}
+.paragraph {
+  display: flex;
+}
+.para {
+  font-size: 40px;
+  width: 60%;
+  margin-top: 98px;
+  margin-left: 43px;
+
+  border: 1px solid #eee;
+  box-shadow: 0 5px 7px #ccc;
+  padding: 16px;
+  text-align: center;
+}
+.image {
+  /* background-image: url("/Images/keyboard2.jpg"); */
+  background-color: #e7fcff;
+  background-size: cover;
+  height: 800px;
+}
+/* #keyboard {
+ 
+  z-index: 1;
+} */
+#pummy {
+  width: 500px;
+  height: 500px;
+  top: 23%;
+  left: 70%;
+  position: absolute;
+  z-index: 5;
+  /* clip: rect(0px, 419px, 454px, 0px); */
+  border-radius: 50%;
+}
