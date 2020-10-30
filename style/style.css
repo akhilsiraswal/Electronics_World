@@ -61,9 +61,21 @@
 }
 .para {
   font-size: 40px;
-  width: 60%;
+  width: 29%;
   margin-top: 98px;
-  margin-left: 43px;
+  margin-left: 76px;
+  transition: all 0.2s ease;
+  border: 1px solid #eee;
+  box-shadow: 0 5px 7px #ccc;
+  padding: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+.para1 {
+  font-size: 40px;
+  width: 90%;
+  margin-top: 98px;
+  margin-left: 76px;
   transition: all 0.2s ease;
   border: 1px solid #eee;
   box-shadow: 0 5px 7px #ccc;
@@ -93,4 +105,26 @@
   z-index: 5;
   /* clip: rect(0px, 419px, 454px, 0px); */
   border-radius: 50%;
+}
+.Contact h1 {
+  font-size: 121px;
+  margin-top: 91px;
+  margin-left: 33%;
+}
+
+.Contact {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+.contactUs {
+  margin-left: 27%;
+}
+
+.copyright {
+  background-color: white;
+  font-size: 30px;
+}
+.copyright p {
+  margin-left: 45%;
 }
