@@ -1,4 +1,4 @@
 index.html
-Images
-style
+Images/Pummy.jpeg
+style/style.css
 app.js
