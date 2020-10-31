@@ -112,21 +112,25 @@
   text-align: center;
   cursor: pointer;
 }
-.para {
+
+.AboutUs {
   font-size: 40px;
   width: 90%;
+  height: 100vh;
   margin-top: 98px;
   margin-left: 76px;
   transition: all 0.2s ease;
-  border: 1px solid #eee;
-  box-shadow: 0 15px 71px #ccc;
+  border: 1px solid black;
+  box-shadow: 0 15px 15px rgb(36, 36, 36);
   padding: 16px;
   text-align: center;
   cursor: pointer;
 }
-.para:hover {
-  transform: scale(1.1);
+.AboutUs photo {
+  background-image: url("/Images/Pummy.jpeg");
+  background-size: contain;
 }
+
 .para1:hover {
   transform: scale(1.1);
 }

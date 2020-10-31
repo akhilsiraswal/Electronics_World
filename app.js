@@ -13,7 +13,11 @@
 //   modelBg.classList.remove("bg-active");
 // });
 
-const texts = ["Security", "Repair", "Computer Accessories"];
+const texts = [
+  "Security Appliances",
+  "Computer Repair",
+  "Computer Accessories",
+];
 let count = 0;
 
 let index = 0;
