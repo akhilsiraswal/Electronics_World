@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: white;
+}
 .navbar ul {
   list-style-type: none;
   margin: 0;
@@ -84,7 +87,7 @@
   margin-top: 98px;
   margin-left: 76px;
   transition: all 0.2s ease;
-  box-shadow: 0 15px 71px #ccc;
+  box-shadow: 0 15px 15px rgb(126, 126, 126);
   padding: 16px;
   text-align: center;
 }
@@ -96,7 +99,7 @@
   margin-top: 98px;
   margin-left: 76px;
   transition: all 0.2s ease;
-  box-shadow: 0 15px 71px #ccc;
+  box-shadow: 0 15px 15px rgb(126, 126, 126);
   padding: 16px;
   text-align: center;
 }
@@ -107,7 +110,7 @@
   margin-top: 98px;
   margin-left: 76px;
   transition: all 0.2s ease;
-  box-shadow: 0 15px 71px #ccc;
+  box-shadow: 0 15px 15px rgb(126, 126, 126);
   padding: 16px;
   text-align: center;
 }
