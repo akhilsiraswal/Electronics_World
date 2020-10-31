@@ -74,83 +74,80 @@
   margin-left: 30%;
 }
 .paragraph {
-  display: flex;
+  display: block;
 }
 .para1 {
   font-size: 40px;
-  width: 29%;
+  width: 90%;
+  height: 100vh;
+
   margin-top: 98px;
   margin-left: 76px;
   transition: all 0.2s ease;
-  border: 1px solid #eee;
   box-shadow: 0 15px 71px #ccc;
   padding: 16px;
   text-align: center;
-  cursor: pointer;
 }
 .para3 {
   font-size: 40px;
-  width: 29%;
+  width: 90%;
+  height: 100vh;
+
   margin-top: 98px;
   margin-left: 76px;
   transition: all 0.2s ease;
-  border: 1px solid #eee;
   box-shadow: 0 15px 71px #ccc;
   padding: 16px;
   text-align: center;
-  cursor: pointer;
 }
 .para2 {
-  font-size: 40px;
-  width: 29%;
-  margin-top: 98px;
-  margin-left: 76px;
-  transition: all 0.2s ease;
-  border: 1px solid #eee;
-  box-shadow: 0 15px 71px #ccc;
-  padding: 16px;
-  text-align: center;
-  cursor: pointer;
-}
-
-.AboutUs {
   font-size: 40px;
   width: 90%;
   height: 100vh;
   margin-top: 98px;
   margin-left: 76px;
   transition: all 0.2s ease;
-  border: 1px solid black;
-  box-shadow: 0 15px 15px rgb(36, 36, 36);
+  box-shadow: 0 15px 71px #ccc;
   padding: 16px;
   text-align: center;
-  cursor: pointer;
-}
-.AboutUs photo {
-  background-image: url("/Images/Pummy.jpeg");
-  background-size: contain;
 }
 
-.para1:hover {
-  transform: scale(1.1);
+.AboutUs {
+  font-size: 40px;
+  width: 70%;
+  height: 70vh;
+  margin: auto;
+  margin-top: 98px;
+  /* margin-left: 28vh; */
+  /* border: 1px solid black; */
+  box-shadow: 0 15px 15px rgb(126, 126, 126);
+  padding: 16px;
+  /* text-align: center; */
 }
-.para2:hover {
-  transform: scale(1.1);
-}
-.para3:hover {
-  transform: scale(1.1);
+.AboutUs h1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
-#pummy {
-  width: 500px;
-  height: 500px;
-  top: 23%;
-  left: 70%;
+.introduction {
+  display: flex;
+}
+.introduction img {
   position: absolute;
-  z-index: 5;
-  /* clip: rect(0px, 419px, 454px, 0px); */
-  border-radius: 50%;
+  background-size: cover;
+  width: 30%;
+  height: 63vh;
+  clip: rect(46px, 61vh, 61vh, 70px);
+  margin-left: -3vh;
+  margin-top: -1vh;
 }
+.introduction p {
+  font-family: "Lobster", cursive;
+  margin-left: 65vh;
+  margin-top: 5vh;
+  color: #383838;
+}
+
 .Contact h1 {
   font-size: 121px;
   margin-top: 91px;
@@ -216,23 +213,3 @@
   font-weight: bold;
   cursor: pointer;
 }
-
-/* 
-  .image img {
-  width: 100%;
-  height: 50%;
-}
-
-.image p {
-  top: 30px;
-  font-size: 40px;
-  width: 60%;
-  margin-top: 98px;
-  margin-left: 43px;
-  color: black;
-  border: 1px solid #eee;
-  box-shadow: 0 5px 7px #ccc;
-  padding: 16px;
-  text-align: center;
-}
-*/
