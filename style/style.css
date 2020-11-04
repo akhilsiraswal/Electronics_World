@@ -31,11 +31,11 @@ body {
 
 .image {
   display: flex;
-<<<<<<< HEAD
+
   background-image: url("../Images/background.jpg");
-=======
+
   background-image: url("../Images//background.jpg");
->>>>>>> 3ac52ab09fef8bdcb2bd6e79adccd3428e6a6543
+
   background-size: cover;
   height: 100vh;
 }
